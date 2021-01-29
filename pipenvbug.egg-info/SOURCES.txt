@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+module1/__init__.py
+module1/func.py
+pipenvbug.egg-info/PKG-INFO
+pipenvbug.egg-info/SOURCES.txt
+pipenvbug.egg-info/dependency_links.txt
+pipenvbug.egg-info/top_level.txt

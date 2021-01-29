@@ -1,0 +1,32 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "be70ffd55d16a51c4991a96ab14b9d6228c04af04a9c2d519d285e9b9df8179d"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "pipenvbug": {
+            "path": ".",
+            "version": "==0.0.0"
+        }
+    },
+    "develop": {
+        "pipenvbug": {
+            "path": ".",
+            "version": "==0.0.0"
+        },
+        "pipenvbug-dev": {
+            "editable": true,
+            "path": "."
+        }
+    }
+}
