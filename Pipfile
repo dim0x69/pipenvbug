@@ -3,10 +3,8 @@ url = 'https://pypi.python.org/simple'
 verify_ssl = true
 name = 'pypi'
 
+[dev-packages]
+pipenvbug = {editable = true, git = "https://github.com/dim0x69/pipenvbug.git"}
 
-
- [dev-packages]
- "master" = {path = ".", editable = true}
-
- [packages]
- "pipenvbug" = {path = "."}
+[packages]
+pipenvbug = {git = "https://github.com/dim0x69/pipenvbug.git"}
